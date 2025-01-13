@@ -15,20 +15,20 @@
 
     <!-- Authentication Form -->
     <div id="authSection">
-        <h2>enter a password</h2>
-        <input type="password" id="authPassword" placeholder="Enter Password">
-        <button id="loginButton">Login</button>
-        <p id="authError" style="color: red; display: none;">get out lol</p>
+        <h2>password, please</h2>
+        <input type="password" id="authPassword" placeholder="enter password">
+        <button id="loginButton">login</button>
+        <p id="authError" style="color: red; display: none;">get out</p>
     </div>
 
     <!-- Diary Form and Entries (Hidden initially) -->
     <div id="diarySection" style="display: none;">
         <div class="entry-form">
-            <h2>what are you thinking about?</h2>
+            <h2>new entry</h2>
             <form id="diaryForm">
-                <input type="text" id="entryTitle" placeholder="date and time" required>
-                <textarea id="text" rows="5" placeholder="write yo shit" required></textarea><br>
-                <button type="submit">submit!</button>
+                <input type="text" id="entryTitle" placeholder="title" required><br>
+                <textarea id="entryContent" rows="5" placeholder="Write your entry..." required></textarea><br>
+                <button type="submit" placeholder="submit" </button>
             </form>
         </div>
 
