@@ -1,6 +1,6 @@
 // JavaScript to handle login, adding, and deleting diary entries
 
-const correctPassword = "ilovebrockhampton";  // Replace with your actual secret password
+const correctPassword = "21625";  // Replace with your actual secret password
 let isAuthenticated = false;  // Flag to track if the user is logged in
 
 // Authentication logic
